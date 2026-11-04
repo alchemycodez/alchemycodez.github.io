@@ -11,11 +11,11 @@ const socials = [
   },
   {
     name: "LinkedIn",
-    url: "https://www.linkedin.com/in/your-username",
+    url: "https://www.linkedin.com/in/alchemy-codez-173b74376/",
   },
   {
     name: "Mail",
-    url: "mailto:your-email@example.com",
+    url: "mailto:alchemycodez@gmail.com",
   },
 ];
 
@@ -321,11 +321,11 @@ function App() {
 
               <div className="mt-5 space-y-1.5 text-sm leading-7 text-[#D4D4D8]">
                 <p>
-                  Curious developer exploring backend engineering, building APIs and understanding how systems work.
+                   Exploring backend engineering, building/learning in public and understanding how systems &amp; infra works.
                 </p>
 
                 <p>
-                  Currently building and exploring backend and infra with ai.
+                  secondary will explore ai.
                 </p>
               </div>
 
