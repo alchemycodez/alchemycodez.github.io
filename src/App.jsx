@@ -233,6 +233,15 @@ function App() {
     };
   }, []);
 
+  useEffect(() => {
+    if (window.goatcounter?.count) {
+      window.goatcounter.count({
+        path: window.location.pathname,
+        title: document.title,
+      });
+    }
+  }, [page]);
+
   // Navigate between pages without reloading
   const navigate = (event, path) => {
     if (
